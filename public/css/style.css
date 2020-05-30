@@ -1,0 +1,314 @@
+.contenedor {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    width: 40vw;
+    height: 40vw;
+    margin: 30px auto;
+    display: inline-block;
+
+    background-color:Transparent;
+    
+    padding: 0
+}
+
+
+.grid {
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+  	width: 40vw;
+  	height: 40vw;
+  	margin: 30px auto;
+   	display: inline-block;
+
+	  background-color:Transparent;
+    color: white;
+    
+    padding: 0
+}
+
+#sad {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+	width: 40vw;
+	height: 40vw;
+	margin: 30px auto;
+   	display: inline-block;
+
+	background-color:Transparent;
+    color: white;
+    
+    padding: 0
+}
+
+.cuadrito {
+  position: absolute;
+  z-index: -1;
+	background-color:blue;
+	height: 0vw;
+	width: 0vw;
+}
+
+.vl {
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+	border-left: 1px solid red;
+  border-right: 1px solid red;
+	height: 40vw;
+	width: 2px;
+}
+
+.hl {
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+	width: 40vw;
+	height: 2px;
+
+}
+
+button {
+  background: orange;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Lato';
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background: blue;
+}
+
+#anime {
+  width: 40vw;
+  height: 40vw;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+.eje_y {
+    z-index: 1;
+    position: absolute;
+    width: 6px;
+  	height: 40vw;
+    margin: auto 20vw;
+    background: black;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.eje_x {
+    z-index: 1;
+    position:absolute;
+    height: 6px;
+  	width: 40vw;
+    margin: 20vw auto;
+    background: black;
+    top: 0; 
+    bottom: 0; 
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+.square{
+	position: relative;
+	float:left;
+	width: 50%;
+	height: 50%;
+	color: #1abc9c;
+	text-align: center;
+	display:table;
+  vertical-align: middle;
+  background: #D6EAF8;
+}
+
+div p{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 50px;
+}
+
+.controls {
+  margin-top: 100px;
+}
+
+#coor1{
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  margin-top: -3vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: red;
+}
+
+#coor2{
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  margin-top: -3vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: red;
+}
+
+#coor3{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  margin-left: -4vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: red;
+}
+
+#coor4{
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  margin-left: -4vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: red;
+}
+
+#label_eje_x{
+  display: inline-block;
+  position: absolute;
+  margin-top: -5vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: red;
+  left: 18vw;
+}
+
+#label_eje_y{
+  display: inline-block;
+  position: absolute;
+  margin-left: -9vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: red;
+  top: 19vw;
+}
+
+.vl1{
+  height: 36vw;
+  bottom: 2vw;
+  margin-left: -3.3vw ;
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+}
+
+.hl1{
+  width: 35vw;
+  top: -1.6vw;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+}
+
+.grid2 {
+    z-index: -1;
+    position: relative;
+    left: 0;
+    right: 0;
+
+    width: 40vw;
+    height: 40vw;
+    margin: 5vw auto;
+    display: inline-block;
+
+    background-color: #1abc9c;
+    color: white;
+    
+    padding: 0
+}
+
+.square2{
+  text-align: center;
+  z-index: 4;
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  margin: 5vw auto;
+  background: #ffffff;
+}
+
+.izquierda{
+  text-align: center;
+  z-index: 4;
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  top: 0;
+  left: -30vw;
+  background: #ffffff;
+}
+
+.derecha{
+  text-align: center;
+  z-index: 4;
+  position: absolute;
+  width: 29vw;
+  height: 20vw;
+  top: 0;
+  right: -29vw;
+  background: #ffffff;
+}
+
+.oculto{
+  visibility: hidden;
+}
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
